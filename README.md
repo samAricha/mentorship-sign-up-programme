@@ -1,6 +1,9 @@
+<img src="/src/assets/men-mentors.png" width="350" title="hover text">
 # mentor-programme
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a mentorship programme aimed at mentoring men to 
+their full potential.
+
 
 ## Recommended IDE Setup
 
