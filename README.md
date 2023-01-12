@@ -1,6 +1,6 @@
-<p align="center">
+
 # mentor-programme
-</p>
+
 <p align="center">
 <img src="/src/assets/men-mentors.png" width="350" title="hover text">
 </p>
