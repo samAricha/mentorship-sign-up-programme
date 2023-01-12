@@ -1,5 +1,7 @@
-<img src="/src/assets/men-mentors.png" width="350" title="hover text">
 # mentor-programme
+<p align="center">
+<img src="/src/assets/men-mentors.png" width="350" title="hover text">
+</p>
 
 This is a mentorship programme aimed at mentoring men to 
 their full potential.
