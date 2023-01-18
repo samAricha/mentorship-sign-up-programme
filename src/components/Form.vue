@@ -34,16 +34,17 @@
           value="Female"
       />
       <label for="female-radio">Female</label><br>
-      <input
-          class="submit"
+      <button
+          class="btn btn-primary"
           type="submit"
           value="Submit"
-      >
+      >Submit</button>
     </form>
     <div v-if="formSubmitted">
       <h3>Form Submitted</h3>
       <p>Name: {{ name }}</p>
       <p>Email: {{ email }}</p>
+      <p>Phone: {{ phone }}</p>
       <p>Gender: {{ gender }}</p>
       <small>Click on run to launch the app again.</small>
     </div>
@@ -95,5 +96,35 @@ span {
   cursor: pointer;
   border-radius: 5px;
 }
+h1 {
+  color: #3d4852;
+}
+.btn {
+  border: none;
+  border-radius: 3px;
+  margin: auto 0;
+  padding: 0.5rem 0.75rem;
+  flex-shrink: 0;
+  cursor: pointer;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  transition: all 0.1s ease-in;
+}
+.btn-primary {
+  background: #0073cf;
+  color: #fff;
+}
+input {
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid #f1f5f8;
+  color: #606f7b;
+  padding: 0.5rem 0.75rem;
+  box-sizing: border-box;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  margin: 0.5rem 0;
+}
+
 
 </style>
